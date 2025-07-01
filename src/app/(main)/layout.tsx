@@ -2,9 +2,9 @@ import type React from "react";
 import { cookies } from "next/headers";
 
 import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar";
-import { AppSidebar } from "@/components/app-sidebar";
-import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
+import { AppSidebar } from "@/components/AppSidebar";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 export default async function MainLayout({
   children,
